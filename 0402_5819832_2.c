@@ -9,7 +9,7 @@ struct {
 int avail = 7;
 int As = 0, Ae = 3, Bs = 4, Be = 6, Cs, Ce;
 
-void print_poly(int s, int e)
+void print_poly(int s, int e);
 
 int main(int argc, char* argv[]) {
 
@@ -26,6 +26,6 @@ void print_poly(int s, int e) {
 	for (int i = s; i < e; i++)
 		printf("%3.1fx^%d + ", terms[i].coef, terms[i].expon);
 	printf("%3.1fx^%d + \n ", terms[e].coef, terms[e].expon);
-
+}
 
 
