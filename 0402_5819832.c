@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 
-#define MAX_TERMS 20
+#define MAX_TERMS 101
 
 struct term {
     float coef;
